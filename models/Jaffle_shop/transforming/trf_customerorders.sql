@@ -1,4 +1,4 @@
-{{ config (alias = 'customer_orders' ,schema = 'Transforming' , materialized='table'      ) }}
+{{ config (schema = 'Transforming' , materialized='table'      ) }}
 
 with customers as (
 
