@@ -1,4 +1,4 @@
-{{ config ( schema = 'reporting' , materialized='table')}}
+{{ config ( schema = 'transforming' , materialized='table')}}
 select
         id as custid,
         concat('first_name',',','last_name') as custname
